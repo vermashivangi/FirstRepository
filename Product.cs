@@ -10,7 +10,6 @@ namespace FirstRepository.Controllers
         public ActionResult DisplayError(string msg = null)
         {
             ViewBag.Message = (msg == null) ? "Something went wrong" : msg;
-
             return View();
         }
     }
